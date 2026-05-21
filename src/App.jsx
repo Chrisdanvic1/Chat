@@ -88,7 +88,7 @@ function App() {
 
   return (
     <>
-      <header className="flex items-center justify-between my-2 mx-6 text-lg sticky top-0 h-dvh">
+      <header className="flex items-center justify-between my-2 mx-6 text-lg sticky top-0 ">
         <div className="flex items-center justify-center gap-4">
           <img src={Vector} className="w-4" alt="edit" />
           <div className="flex items-center justify-center gap-2 cursor-pointer px-3 py-2 rounded-xl hover:bg-[hsl(0,0%,97%)]">
