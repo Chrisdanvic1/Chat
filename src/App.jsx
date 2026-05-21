@@ -97,7 +97,11 @@ function App() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-2">
+        <div className={`items-center justify-center gap-2 ${
+              messages.length > 0
+                ? "flex"
+                : "hidden"
+            }`}>
           <button className="bg-black w-25 text-white px-3 py-1 rounded-full cursor-pointer hover:bg-[hsl(0,0%,30%)]">
             Log in
           </button>
