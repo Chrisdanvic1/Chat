@@ -88,7 +88,7 @@ function App() {
 
   return (
     <>
-      <header className="flex items-center justify-between my-2 mx-6 text-lg sticky top-0">
+      <header className="flex items-center justify-between my-2 mx-6 text-lg sticky top-0 h-dvh">
         <div className="flex items-center justify-center gap-4">
           <img src={Vector} className="w-4" alt="edit" />
           <div className="flex items-center justify-center gap-2 cursor-pointer px-3 py-2 rounded-xl hover:bg-[hsl(0,0%,97%)]">
@@ -99,8 +99,8 @@ function App() {
 
         <div className={`items-center justify-center gap-2 ${
               messages.length > 0
-                ? "flex"
-                : "hidden"
+                ? "hidden"
+                : "flex"
             }`}>
           <button className="bg-black w-25 text-white px-3 py-1 rounded-full cursor-pointer hover:bg-[hsl(0,0%,30%)]">
             Log in
@@ -112,7 +112,7 @@ function App() {
         </div>
       </header>
 
-      <main className="flex flex-col h-screen items-center ">
+      <main className="flex flex-col h-screen items-center  h-dvh">
         <section className="w-200">
           {messages.length === 0 && (
             <p className="text-5xl font-semibold text-center mt-70">
