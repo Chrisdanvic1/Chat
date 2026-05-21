@@ -112,7 +112,7 @@ function App() {
         </div>
       </header>
 
-      <main className="flex flex-col h-screen items-center  h-dvh">
+      <main className="flex flex-col  items-center  h-dvh">
         <section className="w-200">
           {messages.length === 0 && (
             <p className="text-5xl font-semibold text-center mt-70">
